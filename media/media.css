@@ -74,7 +74,7 @@
 @media (max-width: 450px) {
 
     .right-side img {
-        width: 380px;
+        width: 400px;
     }
 }
 
@@ -95,11 +95,18 @@
         font-size: 1rem;
     }
 
-    .right-side {
-        display: none;
+    .right-side img {
+        width: 300px;
     }
 
     nav ul button {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 280px) {
+
+    .right-side img {
+        width: 270px;
     }
 }
