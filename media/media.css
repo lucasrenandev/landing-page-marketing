@@ -59,7 +59,6 @@
     }
 
     nav ul {
-
         width: 100%;
         transform: translateY(-100%);
     }
@@ -102,7 +101,6 @@
         width: 300px;
     }
 
-    
 }
 
 @media (max-width: 280px) {
