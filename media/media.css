@@ -3,16 +3,15 @@
 
     #menu-icon {
         display: block;
-        z-index: 1000;
     }
 
     nav ul {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 60%;
         height: 100%;
-        transform: translateY(-100%);
+        transform: translateX(-100%);
         transition: 0.3s ease-in;
         background-color: #5654b3;
         flex-direction: column;
@@ -21,7 +20,7 @@
     }
 
     nav ul.active {
-        transform: translateY(0);
+        transform: translateX(0);
     }
 
     nav ul li a {
@@ -63,6 +62,21 @@
 
 @media (max-width: 610px) {
     
+    #menu-icon {
+        z-index: 1000;
+    }
+
+    nav ul {
+
+        width: 100%;
+        transform: translateY(-100%);
+        gap: 5px;
+    }
+
+    nav ul.active {
+        transform: translateY(0);
+    }
+
     .left-side {
         margin-top: 3rem;
     }
