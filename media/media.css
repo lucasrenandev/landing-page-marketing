@@ -131,6 +131,10 @@
 }
 
 @media (max-width: 250px) {
+    
+    nav {
+        padding-left: 8px;
+    }
 
     .content-left .text h1 {
         font-size: 2rem;
