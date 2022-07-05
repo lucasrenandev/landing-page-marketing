@@ -103,9 +103,44 @@
 
 }
 
-@media (max-width: 280px) {
+@media (max-width: 300px) {
 
     .right-side img {
         width: 270px;
+    }
+}
+
+@media (max-width: 270px) {
+
+    .social-media {
+        display: none;
+    }
+
+    .input-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-button input {
+        width: 100%;
+    }
+
+    .right-side img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 250px) {
+
+    .content-left .text h1 {
+        font-size: 2rem;
+    }
+
+    .content-left .text p {
+        font-size: 0.9rem;
+    }
+
+    .right-side img {
+        width: 200px;
     }
 }
